@@ -2,6 +2,9 @@ import React, { useState, useEffect, Fragment } from "react";
 import { useParams, Link, useHistory } from "react-router-dom";
 import {readDeck} from "../utils/api/index";
 
+/**
+ * Display given cards to allow user to study.
+ */
 function StudyDeck() {
     const history = useHistory();
     const {deckId} = useParams();

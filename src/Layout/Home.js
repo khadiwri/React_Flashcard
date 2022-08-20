@@ -30,7 +30,7 @@ function Home() {
       history.push("/");
     }
   };
- 
+  //return jsx with proper handlers
   return (
     <div>
       <button
