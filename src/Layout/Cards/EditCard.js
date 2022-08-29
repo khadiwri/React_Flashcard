@@ -73,5 +73,4 @@ function EditCard() {
         </Fragment>
     )
 }
-
 export default EditCard;
